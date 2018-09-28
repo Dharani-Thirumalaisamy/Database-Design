@@ -1,0 +1,19 @@
+LAB 1 :- PART : 3
+.......................................................................................................................................................................
+THIS TEXT DOCUMENT IS TO EXPLAIN HOW I DESIGNED THE DATABASE FOR THE DATA THAT WAS UPLOADED IN THE BLACKBOARD.
+.......................................................................................................................................................................
+.......................................................................................................................................................................
+
+EXPLANATION :
+_____________
+
+1. The objective of the question is to create 3 documents from the given data on mLab.
+   In order to implement that I divided the data based on CONTINENTS.
+   a) North American Continent ( Territory ID's : 1,2,3,4,5,6)
+   b) Europe Continent (Territory ID's : 7,8,10)
+   c) Australian Continent (Territory ID's : 9)
+
+2. In order to create a common type of document : 
+   First I created a Territory entity under which I created an array with Territory ID's, Name and BusinessEntity. Under BusinessEntity I created another array which      will hold the details of BusinessEntityID, LastName and FirstName.[ This was done so that different Territories in North American Continent can be put in the same    document]. The TerritoryID, Name, BusinessEntityID, LastName, FirstName can be accessed by Territory.TerritoryID, Territory.Name,       Territory.BusinessEntity.BusinessEntityID, Territory.BusinessEntity.LastName, Territory.BusinessEntity.FirstName respectively.
+   
+3. This procedure is repeated for European Continent and Australian Continent too.

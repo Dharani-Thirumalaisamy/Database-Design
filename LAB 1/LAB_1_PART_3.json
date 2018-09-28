@@ -1,0 +1,129 @@
+{ 
+    "_id" : ObjectId("5b998bffe7179a73d49359f8"), 
+    "Territory" : [
+        {
+            "TerritoryID" : "1", 
+            "Name" : "NorthWest", 
+            "BusinessEntity" : [
+                {
+                    "BusinessEntityID" : "280", 
+                    "LastName" : "Ansman-wolfe", 
+                    "FirstName" : "Pamala"
+                }, 
+                {
+                    "BusinessEntityID" : "283", 
+                    "LastName" : "Campbell", 
+                    "FirstName" : "David"
+                }, 
+                {
+                    "BusinessEntityID" : "284", 
+                    "LastName" : "Mensa-Annan", 
+                    "FirstName" : "Tete"
+                }
+            ]
+        }, 
+        {
+            "TerritoryID" : "2", 
+            "Name" : "NorthEast", 
+            "BusinessEntity" : {
+                "BusinessEntityID" : "275", 
+                "LastName" : "Blythe", 
+                "FirstName" : "Michael"
+            }
+        }, 
+        {
+            "TerritoryID" : "3", 
+            "Name" : "Central", 
+            "BusinessEntity" : {
+                "BusinessEntityID" : "277", 
+                "LastName" : "Carson", 
+                "FirstName" : "Jillian"
+            }
+        }, 
+        {
+            "TerritoryID" : "4", 
+            "Name" : "SouthWest", 
+            "BusinessEntity" : [
+                {
+                    "BusinessEntityID" : "276", 
+                    "LastName" : "Mitchell", 
+                    "FirstName" : "Linda"
+                }, 
+                {
+                    "BusinessEntityID" : "281", 
+                    "LastName" : "Ito", 
+                    "FirstName" : "Shu"
+                }
+            ]
+        }, 
+        {
+            "TerritoryID" : "5", 
+            "Name" : "SouthEast", 
+            "BusinessEntity" : {
+                "BusinessEntityID" : "279", 
+                "LastName" : "Reiter", 
+                "FirstName" : "Tsvi"
+            }
+        }, 
+        {
+            "TerritoryID" : "6", 
+            "Name" : "Canada", 
+            "BusinessEntity" : [
+                {
+                    "BusinessEntityID" : "278", 
+                    "LastName" : "Vargas", 
+                    "FirstName" : "Garrett"
+                }, 
+                {
+                    "BusinessEntityID" : "282", 
+                    "LastName" : "Saraiva", 
+                    "FirstName" : "Jose"
+                }
+            ]
+        }
+    ]
+},
+{ 
+    "_id" : ObjectId("5b998defe7179a73d4935acf"), 
+    "Territory" : {
+        "TerritoryID" : "9", 
+        "Name" : "Australia", 
+        "BusinessEntity" : {
+            "BusinessEntityID" : "286", 
+            "LastName" : "Tsoflias", 
+            "FirstName" : "Lynn"
+        }
+    }
+},
+{ 
+    "_id" : ObjectId("5b99907de7179a73d4935cd1"), 
+    "Territory" : [
+        {
+            "TerritoryID" : "7", 
+            "Name" : "France", 
+            "BusinessEntity" : {
+                "BusinessEntityID" : "290", 
+                "LastName" : "Varkey Chudukatil", 
+                "FirstName" : "Ranjit"
+            }
+        }, 
+        {
+            "TerritoryID" : "8", 
+            "Name" : "Germany", 
+            "BusinessEntity" : {
+                "BusinessEntityID" : "288", 
+                "LastName" : "Valdez", 
+                "FirstName" : " Rachel"
+            }
+        }, 
+        {
+            "TerritoryID" : "10", 
+            "Name" : "United Kingdom", 
+            "BusinessEntity" : {
+                "BusinessEntityID" : "289", 
+                "LastName" : "Pak", 
+                "FirstName" : "Jae"
+            }
+        }
+    ]
+}
